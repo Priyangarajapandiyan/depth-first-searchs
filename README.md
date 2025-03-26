@@ -92,6 +92,7 @@ F H <BR>
 
 
 ## program
+```
 from collections import deque
 from collections import defaultdict
 def dfs(graph,start,visited,path):
@@ -114,7 +115,7 @@ visited=defaultdict(bool)
 path=[]
 traversedpath=dfs(graph,start,visited,path)
 print(traversedpath)
-
+```
 
 ## OUTPUT
 
